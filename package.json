@@ -1,0 +1,72 @@
+{
+  "name": "tsp-trustbadge",
+  "version": "0.1.0",
+  "description": "React TrustBadge component for Trust Standard Protocol (TSP v3.0) envelopes. Renders a verifiable trust receipt; pair with tsp-verify for verification.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./styles.css": "./src/styles.css"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "dist",
+    "src/styles.css",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --out-dir dist --clean --external react --external react-dom",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "tsp",
+    "trust-standard-protocol",
+    "trustbadge",
+    "react",
+    "ai-governance",
+    "provenance",
+    "tsp-verify"
+  ],
+  "homepage": "https://truststandardprotocol.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lexi-TSP/tsp-trustbadge.git"
+  },
+  "author": "Trust Standard Protocol <hello@truststandardprotocol.com>",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "tsp-verify": ">=0.1.1"
+  },
+  "peerDependenciesMeta": {
+    "tsp-verify": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "jsdom": "^26.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

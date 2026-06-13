@@ -1,0 +1,20 @@
+tsp-trustbadge (React TrustBadge component for the Trust Standard Protocol)
+Copyright 2026 LexiCo AS (Tønsberg, Norway)
+
+This product includes software developed at LexiCo AS. TrustBadge is the
+end-user receipt component for the Trust Standard Protocol
+(github.com/Lexi-TSP/Trust-Standard-Protocol, Apache-2.0). It renders fields
+from a verified TrustEnvelope; verification is provided by the consumer (pair
+with tsp-verify, Apache-2.0). Conformance of the envelope schema is defined by
+the fixtures of github.com/Lexi-TSP/tsp-spec.
+
+Trademarks and conformance claims:
+  "Trust Standard Protocol", "TSP", "LexiTSP", "LexiCo", and the TrustBadge
+  visual marks are marks of LexiCo AS. The Apache-2.0 license covers this source
+  code; it does NOT grant rights to use these marks or to claim official status.
+  You MAY implement TSP and state that an implementation conforms to a specific
+  protocol version (e.g. "implements tsp/1") when it passes the published
+  conformance suite at github.com/Lexi-TSP/tsp-spec. You MAY NOT imply LexiCo
+  endorsement, "certified" / "official TSP" status, or regulatory ("EU AI Act
+  compliant") approval unless LexiCo has granted it in writing, and MUST NOT
+  present a modified or non-conformant fork as the canonical TSP.
