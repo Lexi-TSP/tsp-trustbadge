@@ -1,3 +1,11 @@
+> ## ⚠️ TSP public alpha preview
+>
+> This repository contains historical TSP alpha-preview materials. It is not a final TSP release, is not certified for production use, and does not grant any right to claim TSP compatibility, TSP certification, TrustBadge authorization, or participation in the official TSP integrity domain.
+>
+> TSP v3.1+ is governed by the LexiCo TSP License and official conformance process.
+
+<!-- tsp-alpha-banner:end -->
+
 # tsp-trustbadge
 
 **End-user TrustBadge React component** for the [Trust Standard Protocol](https://truststandardprotocol.com) (TSP v3.0).
