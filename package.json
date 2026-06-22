@@ -2,7 +2,7 @@
   "name": "tsp-trustbadge",
   "version": "0.1.0",
   "description": "React TrustBadge component for Trust Standard Protocol (TSP v3.0) envelopes. Renders a verifiable trust receipt; pair with tsp-verify for verification.",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "Apache-2.0",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
