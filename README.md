@@ -1,11 +1,14 @@
-> ## ⚠️ TSP public alpha preview
+<!-- tsp-historical-alpha-archive -->
+> [!IMPORTANT]
+> **Historical Alpha Archive**
 >
-> This repository contains historical TSP alpha-preview materials. It is not a final TSP release, is not certified for production use, and does not grant any right to claim TSP compatibility, TSP certification, TrustBadge authorization, or participation in the official TSP integrity domain.
+> This repository is a historical TSP alpha-preview archive.
 >
-> TSP v3.1+ is governed by the LexiCo TSP License and official conformance process.
-
-<!-- tsp-alpha-banner:end -->
-
+> It is not the current official Trust Standard Protocol release and is preserved for transparency.
+>
+> This repository grants **NO production issuance rights**, **NO TrustBadge authorization**, and **NO Official TSP Conformance Attestation**.
+>
+> Current doctrine and release status: https://truststandardprotocol.com
 # tsp-trustbadge
 
 **End-user TrustBadge React component** for the [Trust Standard Protocol](https://truststandardprotocol.com) (TSP v3.0).
@@ -56,10 +59,11 @@ or `"manual"`. Pass `initialResult` to pre-empt the first verify call (e.g. SSR)
 
 Apache-2.0. See [`LICENSE`](./LICENSE) and [`NOTICE`](./NOTICE). The Apache-2.0
 grant covers this code; it does not grant rights to the TSP marks or to claim
-official/certified status — see `NOTICE`.
+official/attested status — see `NOTICE`.
 
 ## Relationship to `@lexitsp/trustbadge-react`
 
 This package supersedes the pre-relaunch `@lexitsp/trustbadge-react` (MIT). It is
 re-homed to the one-repo-per-concern architecture, relicensed Apache-2.0, and
 retargeted off `@lexitsp/sdk` (superseded by `tsp-verify`).
+
